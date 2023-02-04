@@ -82,15 +82,7 @@ You can now view gatsby-starter-hello-world in the browser.
 
 画面にHello World!が表示されることを確認してください。Hello World!が表示されたらここまでの設定は問題なく行われています。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-1.png)
-
-Hello World!の表示
-
 Hello World!が記述されているファイルははsrc/pagesの下のindex.jsファイルです。このファイルを更新するとトップページの内容を書き換えることができます。
-
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-2.png)
-
-Gatsbyのディレクトリ構成
 
 【参考】Blog Starterでサイト作成
 ----------------------
@@ -110,11 +102,7 @@ Gatsbyのディレクトリ構成
 
 マシンのスペックによるgatsby developに時間がかかる場合があります。
 
-![](https://reffect.co.jp/wp-content/uploads/2018/12/fukidashi.png)
-
 ブラウザで確認するとブログ用のスターターなのでブログのトップページと3つの記事へのリンクが表示されています。
-
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-3.png)
 
 blog starterの初期画面
 
@@ -132,13 +120,12 @@ description: "Hello World"
 This is my first post on my new fake blog! How exciting! 
 ```
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-4.png)
+
 
 記事の更新
 
 新しい記事を作成したい場合はcontent¥blogの下にタイトル名のフォルダを作成し、index.mdファイルに記事の内容を記述すると記事を追加することが可能です。
 
-![](https://reffect.co.jp/wp-content/uploads/2018/12/fukidashi.png)
 
 このようにstarterを利用するとReactやGraphQLの知識がなかったとしても記事の更新や追加を行うことができます。
 
@@ -171,13 +158,12 @@ export default BlogPage
 
 更新すると手動でリロードすることなくブラウザに変更内容が更新されます。これはホットリロードと呼ばれており効率的に追加した内容をチェックするこができます。更新を行った内容Gatsby Blog Siteが表示されます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-5.png)
 
 トップページの変更
 
 returnの中にdivタグやh1タグが入っているので通常のHTMLのように感じてしまいますが、これはJavaScriptの中でもHTMLを扱えるようにしたJSXという拡張機能を利用しています。JSXの中ではclassやstyleの記述方法が通常のHTMLとは異なります。
 
-![](https://reffect.co.jp/wp-content/uploads/2018/12/fukidashi.png)
+
 
 ### aboutページの追加
 
@@ -219,7 +205,6 @@ export default function AboutPage() {
 
 /(ルート)と/aboutページにブラウザからアクセスすることができますが、ユーザがそれ以外のページにアクセスした場合には下記のページが表示されます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby_development_404-1024x749.png)
 
 Gatby Development 404 Page
 
@@ -243,7 +228,6 @@ export default NotFound
 
 再度存在しないURLにアクセスすると先ほどと同じ画面が表示されますが、”Preview custom 404 page”ボタンをクリックすると404.jsで記述したエラーの内容が表示されます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/Not_Found_Error-1024x621.png)
 
 カスタムエラーページ
 
@@ -281,7 +265,6 @@ export default BlogPage
 
 ブラウザで確認するとAboutページへのリンクが貼られます。クリックするとAboutページ全体の読み込みが行われずスムーズにAbout Pageが表示されることが確認できます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-6.png)
 
 aboutページへのリンク
 
@@ -289,7 +272,6 @@ aboutページへのリンク
 
 外部のページにリンクを貼りたい場合は通常通りaタグを利用してリンクを貼ってください。
 
-![](https://reffect.co.jp/wp-content/uploads/2018/12/fukidashi.png)
 
 ### ヘッダーとフッターコンポーネントの作成
 
@@ -359,8 +341,6 @@ export default AboutPage
 
 Aboutページの上部にリンクが表示され、リンクをクリックするとページが更新されます。トップページも同様に表示されます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-7.png)
-
 上部にリンクが表示
 
 Footerコンポーネントの作成も行います。header.jsと同様にcomonentsディレクトリの下にfooter.jsファイルを作成します。西暦を自動表示できるように(new Date()).getFullYear()を行なっています。
@@ -401,7 +381,6 @@ export default BlogPage
 
 ブラウザで確認すると上部にHeaderコンポーネントの要素、下部にFooterコンポーネントの要素が表示されることが確認できます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-8.png)
 
 HeaderとFooterが表示
 
@@ -432,7 +411,6 @@ export default BlogPage
 
 Reactでは親コンポーネントから子コンポーネントにデータを渡す際にpropsを利用します。
 
-![](https://reffect.co.jp/wp-content/uploads/2018/12/fukidashi.png)
 
 ```
  import React from 'react'
@@ -454,7 +432,7 @@ export default Layout
 
 Layoutコンポーネントを追加しましたが、ブラウザからは先程までと同じ内容が表示されます。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-8.png)
+
 
 HeaderとFooterが表示
 
@@ -511,7 +489,6 @@ export default BlogPage
 
 ブラウザで確認し文字の色が赤になっていればCSSは適用されています。
 
-![](https://reffect.co.jp/wp-content/uploads/2020/03/gatsby-css-apply.png)
 
 CSS適用の確認
 

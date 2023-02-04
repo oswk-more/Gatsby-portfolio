@@ -24,18 +24,19 @@
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
+      "category": "Blog",
+      "title": "Notion × NEXT.js Blog",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "tags": ["Notion", "NEXT.js","Vercel"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/Notion_NEXTjs.jpg",
+        "alt": "Extendable Layout",
+        "linkTo": "https://notion-blog-eight-tau.vercel.app/"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/oswk-more/Notion_blog"
         }
       ]
     }

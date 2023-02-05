@@ -10,9 +10,7 @@
     "bio": "趣味で色々開発しています。",
     "social": {
       "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
+      "github": "https://github.com/oswk-more",
       "mail": "mailto:mail@konstantin.digital"
     }
   },
@@ -20,16 +18,11 @@
     "logo": { "text": "Portfolio" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
+        { "label": "Home", "url": "/#Home" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Contents", "url": "/#Contents" },
         { "label": "Github", "url": "/#github" }
       ],
-      "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
-      },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
         { "label": "Imprint", "url": "/imprint" }

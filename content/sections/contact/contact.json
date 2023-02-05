@@ -1,5 +1,5 @@
 {
-  "name": "Gatsby Starter For Portfolio Minimal",
+  "name": "Sou Kawatare",
   "email": "example@mail.com",
   "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
   "image": {
@@ -7,7 +7,7 @@
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": [ "Github", "Mail"],
     "showIcons": true
   }
 }

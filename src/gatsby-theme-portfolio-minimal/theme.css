@@ -1,8 +1,8 @@
 body[data-theme='lightTheme'] {
-  --primary-color: #000000;
+  --primary-color: #404040;
   --secondary-color: #d9fffe;
   --tertiary-color: #f2f2f2;
-  --text-color: #000000;
+  --text-color: #404040;
   --subtext-color: #555555;
   --background-color: #ffffff;
   --card-background-color: #ffffff;

@@ -8,6 +8,8 @@ import {
   Page,
   ProjectsSection,
   Seo,
+  Section, 
+  Animation
 } from "gatsby-theme-portfolio-minimal";
 import "../gatsby-theme-portfolio-minimal/theme.css"
 import "../gatsby-theme-portfolio-minimal/global.css"
@@ -18,12 +20,15 @@ export default function IndexPage() {
     <>
       <Seo title="Gatsby Starter for Portfolio Minimal" />
       <Page useSplashScreenAnimation>
-        <HeroSection sectionId="hero" />
+        <Animation type="fadeUp">
+                <Section heading="This is a brand new section.">
+                    <div class="scrolldown1"><span>Scroll</span></div>
+                </Section>
+        </Animation>
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
+        <ProjectsSection sectionId="Contents" heading="Contents" />
         <InterestsSection sectionId="details" heading="Details" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <ContactSection sectionId="github" heading="Contact" />
       </Page>
     </>
   );

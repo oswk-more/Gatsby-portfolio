@@ -14,17 +14,15 @@ import {
 import "../gatsby-theme-portfolio-minimal/theme.css"
 import "../gatsby-theme-portfolio-minimal/global.css"
 
+import ThreeScene from '../components/ThreeScene';
+
 
 export default function IndexPage() {
   return (
     <>
       <Seo title="Gatsby Starter for Portfolio Minimal" />
       <Page useSplashScreenAnimation>
-        <Animation type="fadeUp">
-                <Section heading="This is a brand new section.">
-                    <div class="scrolldown1"><span>Scroll</span></div>
-                </Section>
-        </Animation>
+        <ThreeScene />
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
         <ProjectsSection sectionId="Contents" heading="Contents" />
         <InterestsSection sectionId="details" heading="Details" />

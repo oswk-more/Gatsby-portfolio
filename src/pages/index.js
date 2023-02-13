@@ -1,29 +1,36 @@
 import React from "react";
 import {
-  AboutSection,
+  // AboutSection,
   ArticlesSection,
   ContactSection,
-  HeroSection,
+  // HeroSection,
   InterestsSection,
   Page,
   ProjectsSection,
   Seo,
-  Section, 
-  Animation
+  // Section,
+  // Animation,
 } from "gatsby-theme-portfolio-minimal";
-import "../gatsby-theme-portfolio-minimal/theme.css"
-import "../gatsby-theme-portfolio-minimal/global.css"
+import "../gatsby-theme-portfolio-minimal/theme.css";
+import "../gatsby-theme-portfolio-minimal/global.css";
 
-import ThreeScene from '../components/ThreeScene';
-
+import ThreeScene from "../components/ThreeScene";
+import Header from "../components/Header";
 
 export default function IndexPage() {
   return (
     <>
       <Seo title="Gatsby Starter for Portfolio Minimal" />
       <Page useSplashScreenAnimation>
+        {/* <ThreeScene /> */}
+
         <ThreeScene />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
+        <Header />
+        <ArticlesSection
+          sectionId="articles"
+          heading="Latest Articles"
+          sources={["Blog"]}
+        />
         <ProjectsSection sectionId="Contents" heading="Contents" />
         <InterestsSection sectionId="details" heading="Details" />
         <ContactSection sectionId="github" heading="Contact" />

@@ -1,13 +1,13 @@
 {
   "name": "Sou Kawatare",
-  "email": "example@mail.com",
-  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "email": "kawatare.os@gmail.com",
+  "description": "ご質問やお問い合わせは、お手数ですがメールかInstagramのDMにてお願いいたします。",
   "image": {
     "src": "../../images/favicon.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {
-    "from": [ "Github", "Mail"],
+    "from": ["Github", "Mail", "Instagram"],
     "showIcons": true
   }
 }

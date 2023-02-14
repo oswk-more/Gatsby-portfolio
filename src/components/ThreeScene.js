@@ -9,10 +9,6 @@ const My3DScene = () => {
     const height = window.innerHeight;
 
     const CELL_NUM = 15;
-    const GEOMETRY_WIDTH = 1;
-    const GEOMETRY_HEIGHT = 20;
-    const GEOMETRY_DEPTH = 32;
-    const GEOMETRY_SEGMENTS = 1;
 
     // レンダラーを作成
     const renderer = new THREE.WebGLRenderer({
@@ -40,16 +36,14 @@ const My3DScene = () => {
     // 共通マテリアル
     const material = new THREE.MeshNormalMaterial();
     // Box
-    const geometry = new THREE.PlaneGeometry(
-      GEOMETRY_WIDTH,
-      GEOMETRY_HEIGHT,
-      GEOMETRY_SEGMENTS
-    );
     for (let i = 0; i < CELL_NUM; i++) {
       for (let j = 0; j < CELL_NUM; j++) {
         for (let k = 0; k < CELL_NUM; k++) {
           // 立方体個別の要素を作成
-          const mesh = new THREE.Mesh(geometry, material);
+          const mesh = new THREE.Mesh(
+            new THREE.BoxGeometry(1, 20, 1),
+            material
+          );
 
           // XYZ座標を設定
           mesh.position.set(
@@ -85,7 +79,6 @@ const My3DScene = () => {
 
     // 初期化のために実行
     onResize();
-    // リサイズイベント
     // リサイズイベント発生時に実行
     window.addEventListener("resize", onResize);
 

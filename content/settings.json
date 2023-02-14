@@ -2,16 +2,15 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "title": "Kawatre portfolio",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "description": "趣味で色々開発しています。他にも写真、映像などもやってます。",
     "author": "Sou",
     "avatar": "../content/images/icon.png",
     "bio": "趣味で色々開発しています。",
     "social": {
-      "behance": "https://behance.com",
       "github": "https://github.com/oswk-more",
-      "mail": "mailto:mail@konstantin.digital"
+      "mail": "kawatare.os@gmail.com"
     }
   },
   "siteConfiguration": {

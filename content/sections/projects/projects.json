@@ -27,7 +27,7 @@
       "category": "Blog",
       "title": "Notion × NEXT.js Blog",
       "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Notion", "NEXT.js","Vercel"],
+      "tags": ["Notion", "NEXT.js", "Vercel"],
       "image": {
         "src": "../../images/Notion_NEXTjs.jpg",
         "alt": "Extendable Layout",
@@ -44,6 +44,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/oswk-more"
   }
 }
